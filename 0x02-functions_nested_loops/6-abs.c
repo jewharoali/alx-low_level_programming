@@ -4,12 +4,13 @@
 
 /**
  * _abs - computes the absolute value of an integer
+ * @t: number being computed
  * Return: returns 0
  */
-int _abs(int)
+int _abs(int t)
 {
-	int i;
-
-	i = abs(i);
-	return (0);
+	if (t >= 0)
+		return (t);
+	else
+		return (-t);
 }
