@@ -7,8 +7,8 @@
  */
 char *leet(char *str)
 {
-	char replacement[] = "AaEeOoTtLl";
-	char leetChar[] = "44337011";
+	char replacement[] = "aAeEoOtTlL";
+	char leetChar[] = "4433007711";
 	int i, j;
 
 	for (i = 0; str[i] != '\0'; i++)
