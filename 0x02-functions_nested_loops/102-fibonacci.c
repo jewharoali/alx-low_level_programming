@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	long long int i, n, t1, t2, nextTerm;
+	unsigned long int i, n, t1, t2, nextTerm;
 
 	n = 50, t1 = 1, t2 = 2;
 
-	printf("%lld", t1);
-	printf(", %lld", t2);
+	printf("%lu", t1);
+	printf(", %lu", t2);
 
 	for (i = 3; i < n; i++)
 	{
 		nextTerm = t1 + t2;
-		printf(", %lld, ", nextTerm);
+		printf(", %lu", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 	}
