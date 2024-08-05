@@ -10,13 +10,13 @@ int main(void)
 
 	n = 50, t1 = 1, t2 = 2;
 
-	printf("%lld, ", t1);
-	printf("%lld, ", t2);
+	printf("%lld", t1);
+	printf(", %lld", t2);
 
 	for (i = 3; i < n; i++)
 	{
 		nextTerm = t1 + t2;
-		printf("%lld, ", nextTerm);
+		printf(", %lld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 	}
